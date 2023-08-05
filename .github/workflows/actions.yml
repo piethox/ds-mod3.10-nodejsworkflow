@@ -7,7 +7,7 @@ jobs:
     name: Node-CI
     runs-on: ubuntu-latest
 
-  steps:
+    steps:
     - name: Checkout
       uses: actions/checkout@v3
     - uses: actions/setup-node@v3
